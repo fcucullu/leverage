@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Leverage
 
-## Getting Started
+**Executive English communication training for non-native professionals.**
 
-First, run the development server:
+## Problem
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Non-native English speakers in executive roles often default to basic vocabulary and weak phrasing, undermining their authority in meetings, emails, and presentations. Generic language apps don't address the specific communication patterns needed at the C-suite level.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Solution
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Leverage is a focused PWA that provides daily executive English training through curated phrase libraries, vocabulary upgrades, tone exercises, and persuasion frameworks. Every phrase includes pronunciation guides tailored for non-native speakers and context on when to use it.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Target Audience
 
-## Learn More
+- Non-native English speaking executives and senior managers
+- Professionals preparing for leadership roles in English-speaking environments
+- Business professionals who want to sound more authoritative and polished
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Daily Dose**: A rotating daily phrase, vocabulary upgrade, and framework tip
+- **Phrase Library**: 60+ executive phrases organized by intention (contrasting, feedback, urgency, etc.), each with pronunciation notes and formality levels
+- **Vocabulary Upgrades**: 20 "stop saying X, say Y" pairs with pronunciation guides
+- **Tone Meter**: Interactive exercises to distinguish passive, assertive, and aggressive communication
+- **Pitch Anything Frameworks**: 4 persuasion frameworks (Frame Control, Prize, Time, Analyst) with practical phrases
+- **PWA**: Installable on any device
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS v4
+- Supabase (Auth + Database)
+- Vercel (Hosting + Analytics)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Francisco Cucullu** — [franciscocucullu.com](https://franciscocucullu.com)
