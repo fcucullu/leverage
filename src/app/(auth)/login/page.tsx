@@ -2,6 +2,7 @@
 
 import { createClient } from "@/lib/supabase/client";
 import { TrendingUp } from "lucide-react";
+import { InstallPrompt } from "@/components/install-prompt";
 
 export default function LoginPage() {
   const supabase = createClient();
@@ -42,6 +43,10 @@ export default function LoginPage() {
       <p className="text-muted/50 text-[10px] mt-8 text-center">
         Built for non-native executives who want to sound like natives.
       </p>
+
+      <div className="w-full max-w-xs mt-8">
+        <InstallPrompt />
+      </div>
     </div>
   );
 }
